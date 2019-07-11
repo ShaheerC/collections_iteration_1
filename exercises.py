@@ -4,7 +4,7 @@
 
 fav_colors = ['purple', 'black', 'grey']
 fam_age = [28, 64, 68, 34]
-coin_flip = ['heads', 'tails', 'tails', 'tails', 'heads']
+coin_flip = ['heads', 'heads', 'heads', 'tails', 'heads']
 artists = ['tool', 'wutang', 'sigurros']
 
 #DICTIONARIES
@@ -42,3 +42,13 @@ print(fav_movies['OldBoy'])
 
 #EXERCISE 2
 
+print(fav_colors[-1])
+city_pop ['Tokyo'] = 9273000
+print(city_pop)
+coin_flip.reverse()
+print(coin_flip)
+print(city_pop['Toronto'])
+for artist in artists:
+    print("The band, {} is life changing.".format(artist))
+
+#EXERCISE 3
