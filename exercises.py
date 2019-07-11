@@ -1,7 +1,9 @@
+#EXERCISE 0
+
 #LISTS
 
 fav_colors = ['purple', 'black', 'grey']
-fam_age = [28, 34, 64, 68]
+fam_age = [28, 64, 68, 34]
 coin_flip = ['heads', 'tails', 'tails', 'tails', 'heads']
 artists = ['tool', 'wutang', 'sigurros']
 
@@ -28,11 +30,15 @@ friends = {
     'Atindra': 31
 }
 
-print(fav_colors)
-print(fam_age)
+#EXERCISE 1
+
 print(coin_flip)
-print(artists)
-print(definitions)
-print(fav_movies)
-print(city_pop)
-print(friends)
+print(fav_colors[0])
+fam_age.sort()
+print(fam_age)
+fam_age.append(0)
+print(fam_age)
+print(fav_movies['OldBoy'])
+
+#EXERCISE 2
+
