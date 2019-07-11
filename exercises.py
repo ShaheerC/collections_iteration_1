@@ -31,24 +31,53 @@ friends = {
 }
 
 #EXERCISE 1
+print("===START OF EXERCISE 1===")
 
 print(coin_flip)
+
 print(fav_colors[0])
+
 fam_age.sort()
 print(fam_age)
+
 fam_age.append(0)
 print(fam_age)
+
 print(fav_movies['OldBoy'])
 
 #EXERCISE 2
+print("===START OF EXERCISE 2===")
 
 print(fav_colors[-1])
+
 city_pop ['Tokyo'] = 9273000
 print(city_pop)
+
 coin_flip.reverse()
 print(coin_flip)
+
 print(city_pop['Toronto'])
+
 for artist in artists:
     print("The band, {} is life changing.".format(artist))
 
 #EXERCISE 3
+print("===START OF EXERCISE 3===")
+
+print(artists[0:2])
+
+for key, val in fav_movies.items():
+    print ("{} was released in {}.".format(key, val))
+
+print(fam_age)
+fam_age.sort()
+fam_age.reverse()
+print(fam_age)
+
+print(list(reversed(sorted(fam_age))))
+
+fav_movies ['Beauty and the Beast'] = 1991, 2017
+print(fav_movies)
+
+#EXERCISE4
+print("===START OF EXERCISE 4===")
