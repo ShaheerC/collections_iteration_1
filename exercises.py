@@ -81,3 +81,22 @@ print(fav_movies)
 
 #EXERCISE4
 print("===START OF EXERCISE 4===")
+
+for age in fam_age:
+    if age < 30:
+        print(age)
+    
+print(max(fam_age))
+
+print(coin_flip.count('heads'))
+
+print(artists)
+artists.pop(2)
+print(artists)
+
+print(city_pop)
+city_pop['Toronto'] = 3000000
+print(city_pop)
+
+#EXERCISE 5
+print("===START OF EXERCISE 5===")
